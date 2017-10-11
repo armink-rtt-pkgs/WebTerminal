@@ -31,8 +31,8 @@
 
 #include <rtthread.h>
 
-#if defined(PKG_WEB_TERMINAL_PORT)
-    #define WEB_TERMINAL_PORT          PKG_WEB_TERMINAL_PORT
+#if defined(PKG_WEBTERMINAL_PORT)
+    #define WEB_TERMINAL_PORT          PKG_WEBTERMINAL_PORT
 #else
     #define WEB_TERMINAL_PORT          "8090"
 #endif
